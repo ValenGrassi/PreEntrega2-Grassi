@@ -9,4 +9,22 @@ h1{
 li:hover{
             transform: scale(1.2);
             transition: all 1s;
-        }
+}
+
+.card{
+  margin: 10px;
+  width: 250px;
+}
+
+.imagenes{
+  max-width: 248px;
+  max-height: 248px;
+}
+
+.imagenDetail{
+  width: 100%;
+}
+
+.boton{
+  border-radius: 50%;
+}

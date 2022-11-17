@@ -9,7 +9,7 @@ const products = [
       image: [
         "https://res.cloudinary.com/bodegas-del-sur/image/upload/v1631316114/BodegasDelSur/01_1619706181.webp"
       ],
-      categoryId: 9,
+      categoryId: "sinAlcohol",
       brandId: 95,
       packingId: null,
       category: {
@@ -32,7 +32,7 @@ const products = [
       image: [
         "https://res.cloudinary.com/bodegas-del-sur/image/upload/v1631316114/BodegasDelSur/01_1619706076.webp"
       ],
-      categoryId: 9,
+      categoryId: "sinAlcohol",
       brandId: 95,
       packingId: null,
       category: {
@@ -60,7 +60,7 @@ const products = [
       image: [
         "https://res.cloudinary.com/bodegas-del-sur/image/upload/v1631316095/BodegasDelSur/01_1605541215.jpg"
       ],
-      categoryId: 1,
+      categoryId: "vinos",
       brandId: 10,
       packingId: null,
       category: {
@@ -83,7 +83,7 @@ const products = [
       image: [
         "https://res.cloudinary.com/bodegas-del-sur/image/upload/v1631316095/BodegasDelSur/01_1605540337.jpg"
       ],
-      categoryId: 1,
+      categoryId: "vinos",
       brandId: 10,
       packingId: null,
       category: {
@@ -106,7 +106,7 @@ const products = [
       image: [
         "https://res.cloudinary.com/bodegas-del-sur/image/upload/v1631316116/BodegasDelSur/01_1621366255.jpg"
       ],
-      categoryId: 1,
+      categoryId: "vinos",
       brandId: 10,
       packingId: null,
       category: {
@@ -129,7 +129,7 @@ const products = [
       image: [
         "https://res.cloudinary.com/bodegas-del-sur/image/upload/v1631316118/BodegasDelSur/01_1623090927.jpg"
       ],
-      categoryId: 1,
+      categoryId: "vinos",
       brandId: 16,
       packingId: null,
       category: {
@@ -152,7 +152,7 @@ const products = [
       image: [
         "https://res.cloudinary.com/bodegas-del-sur/image/upload/v1631316117/BodegasDelSur/01_1623084032.jpg"
       ],
-      categoryId: 1,
+      categoryId: "vinos",
       brandId: 16,
       packingId: null,
       category: {
@@ -175,7 +175,7 @@ const products = [
       image: [
         "https://res.cloudinary.com/bodegas-del-sur/image/upload/v1631316127/BodegasDelSur/01_1626713403.jpg"
       ],
-      categoryId: 1,
+      categoryId: "vinos",
       brandId: 16,
       packingId: null,
       category: {
@@ -198,7 +198,7 @@ const products = [
       image: [
         "https://res.cloudinary.com/bodegas-del-sur/image/upload/v1631316098/BodegasDelSur/01_1605808301.png"
       ],
-      categoryId: 1,
+      categoryId: "vinos",
       brandId: 16,
       packingId: null,
       category: {
@@ -221,7 +221,7 @@ const products = [
       image: [
         "https://res.cloudinary.com/bodegas-del-sur/image/upload/v1631316082/BodegasDelSur/01_1600449560.jpg"
       ],
-      categoryId: 5,
+      categoryId: "whiskeys",
       brandId: 17,
       packingId: null,
       category: {
