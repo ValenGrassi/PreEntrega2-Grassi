@@ -1,19 +1,19 @@
 const products = [
     {
       id: 30,
-      name: "Agua Con Gas 1,5 lts",
-      stock: 0,
-      cost: 140,
+      name: "Pikador - Alien XL- Cogonauts",
+      stock: 2,
+      cost: 2300,
       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dolor libero, tincidunt id lacinia auctor, mattis elementum tortor. In eu bibendum magna, ac dignissim justo.",
       capacity: 1500,
       image: [
-        "https://res.cloudinary.com/bodegas-del-sur/image/upload/v1631316114/BodegasDelSur/01_1619706181.webp"
+        "https://www.upgrowshop.com/image.php?width=650&height=650&image=/images/products/1012/picador-grinder-cogonauts-unaki-alien-xl_7660.jpeg"
       ],
-      categoryId: "sinAlcohol",
+      categoryId: "pikadores",
       brandId: 95,
       packingId: null,
       category: {
-        name: "Sin Alcohol",
+        name: "pikadores",
         id: 9
       },
       brand: {
@@ -24,19 +24,19 @@ const products = [
     },
     {
       id: 29,
-      name: "Agua Sin Gas 1,5 lts",
-      stock: 100,
-      cost: 140,
+      name: "Pikador - Cubo Rubik - Lion Rolling Circus",
+      stock: 5,
+      cost: 1400,
       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dolor libero, tincidunt id lacinia auctor, mattis elementum tortor. In eu bibendum magna, ac dignissim justo.",
       capacity: 1500,
       image: [
-        "https://res.cloudinary.com/bodegas-del-sur/image/upload/v1631316114/BodegasDelSur/01_1619706076.webp"
+        "https://www.upgrowshop.com/image.php?width=650&height=650&image=/images/products/993/cubo-rubik_6422.jpeg"
       ],
-      categoryId: "sinAlcohol",
+      categoryId: "pikadores",
       brandId: 95,
       packingId: null,
       category: {
-        name: "Sin Alcohol",
+        name: "pikadores",
         id: 9
       },
       brand: {
@@ -52,19 +52,19 @@ const products = [
     },
     {
       id: 76,
-      name: "Alambrado Chardonnay 750 ml",
-      stock: 92,
-      cost: 575,
+      name: "Pikador - Diseño Barril - 3 Partes",
+      stock: 8,
+      cost: 1800,
       description: "Se muestra con tonos amarillo verdoso de intensidad media. En la nariz encontramos frutas blancas maduras, peras, manzanas y banana, frutas tropicales, con notas de la maduración en barricas sobre las borras como vainilla, manteca y miel. Buen volumen, complejo, maduro, con una entrada untuosa en la boca, buen desarrollo y largo final. Se repiten las notas frutales del aroma.",
       capacity: 750,
       image: [
-        "https://res.cloudinary.com/bodegas-del-sur/image/upload/v1631316095/BodegasDelSur/01_1605541215.jpg"
+        "https://www.upgrowshop.com/image.php?width=650&height=650&image=/images/products/706/picador-grinder-diseno-barril-3-partes_4234.jpeg"
       ],
-      categoryId: "vinos",
+      categoryId: "pikadores",
       brandId: 10,
       packingId: null,
       category: {
-        name: "Vinos",
+        name: "pikadores",
         id: 1
       },
       brand: {
@@ -75,19 +75,19 @@ const products = [
     },
     {
       id: 170,
-      name: "Alambrado Malbec 750ml",
-      stock: 100,
-      cost: 575,
+      name: "Pikador - Aluminio 3 Partes - Ámsterdam",
+      stock: 15,
+      cost: 2000,
       description: "Rojo violáceo, profundo y vivaz con visos azulados. Nariz de frutos rojos y negros como cerezas, cassis, ciruelas y moras, integrados con los aromas de maduración en barrica como vainilla, tabaco y chocolate. Entrada en boca sedosa, buena estructura, con una marcada presencia de frutas rojas, taninos amables y dulces, concluyendo en un largo final de boca.",
       capacity: 750,
       image: [
-        "https://res.cloudinary.com/bodegas-del-sur/image/upload/v1631316095/BodegasDelSur/01_1605540337.jpg"
+        "https://www.upgrowshop.com/image.php?width=650&height=650&image=/images/products/160/picador-aluminio-3-partes-amsterdam_70.png"
       ],
-      categoryId: "vinos",
+      categoryId: "pikadores",
       brandId: 10,
       packingId: null,
       category: {
-        name: "Vinos",
+        name: "pikadores",
         id: 1
       },
       brand: {
@@ -98,19 +98,19 @@ const products = [
     },
     {
       id: 233,
-      name: "Alambrado Malbec 750 ml con Estuche",
-      stock: 100,
-      cost: 765,
+      name: "Papelillos - Oro K Size- Lion Rolling Circus",
+      stock: 20,
+      cost: 1450,
       description: "La linea Alambrado esta compuesta por vinos elegantes y de estilo moderno, donde se destacan claramente las características frutales de las variedades que los componen. Su paso por madera les otorgan una complejidad muy particular, acompañando de manera armónica y sutil la calidad obtenida desde el viñedo. Poseen un potencial de guarda de entre 4 y 6 años.\nAlambrado Malbec fue elaborado a partir de una cuidosa selección de uvas cosechadas de forma manual y criado en barricas de roble francés durante 10 meses.",
       capacity: 750,
       image: [
-        "https://res.cloudinary.com/bodegas-del-sur/image/upload/v1631316116/BodegasDelSur/01_1621366255.jpg"
+        "https://www.upgrowshop.com/image.php?width=650&height=650&image=/images/products/1174/sedas-lion-rolling-circus-gold-oro-pre-rolled-king-size_9287.jpeg"
       ],
-      categoryId: "vinos",
+      categoryId: "papelillos",
       brandId: 10,
       packingId: null,
       category: {
-        name: "Vinos",
+        name: "papelillos",
         id: 1
       },
       brand: {
@@ -121,19 +121,19 @@ const products = [
     },
     {
       id: 139,
-      name: "Altos del Plata Cabernet Sauvignon 750 ml",
-      stock: 100,
-      cost: 490,
+      name: "Papelillos - Duki 1 1/4 - Lion Rolling Circus",
+      stock: 50,
+      cost: 300,
       description: "Color: Rojo rubí con sutiles reflejos terracota. Aroma: Se destacan los aromas a frutas negras como higos, ciruelas y confitura de moras, armónicamente acompañados por notas de pimiento rojo, regaliz y tostado. Boca: Se percibe la untuosidad de la fruta madura junto a una elegante estructura tánica y persistencia en boca.",
       capacity: 750,
       image: [
-        "https://res.cloudinary.com/bodegas-del-sur/image/upload/v1631316118/BodegasDelSur/01_1623090927.jpg"
+        "https://www.upgrowshop.com/image.php?width=650&height=650&image=/images/products/1090/sedas-duki-ssj-lion-rolling-circus-papel-para-armar-1-1-4_6043.jpeg"
       ],
-      categoryId: "vinos",
+      categoryId: "papelillos",
       brandId: 16,
       packingId: null,
       category: {
-        name: "Vinos",
+        name: "papelillos",
         id: 1
       },
       brand: {
@@ -144,19 +144,19 @@ const products = [
     },
     {
       id: 68,
-      name: "Altos del Plata Chardonnay 750 ml",
-      stock: 89,
+      name: "Papelillos - Dollar King Size - HoneyPuff",
+      stock: 16,
       cost: 490,
       description: "Altos del Plata Chardonnay pertenece a la bodega Terrazas de los Andes. Su vino es de color amarillo dorado con destellos verdes. Su perfil fresco y frutado revela notas a flores blancas como jazmín y aromas a pera, durazno blanco y ananá. Acompañan sutiles notas tostadas y dulces como vainilla y miel. Presenta ligeros toques tostados y una acidez persistente.",
       capacity: 750,
       image: [
-        "https://res.cloudinary.com/bodegas-del-sur/image/upload/v1631316117/BodegasDelSur/01_1623084032.jpg"
+        "https://www.upgrowshop.com/image.php?width=650&height=650&image=/images/products/704/sedas-honeypuff-dollar-king-size_5179.jpeg"
       ],
-      categoryId: "vinos",
+      categoryId: "papelillos",
       brandId: 16,
       packingId: null,
       category: {
-        name: "Vinos",
+        name: "papelillos",
         id: 1
       },
       brand: {
@@ -167,19 +167,19 @@ const products = [
     },
     {
       id: 222,
-      name: "Altos del Plata Malbec 375 ml",
-      stock: 100,
+      name: "Filtros - Biodegradables 6mm",
+      stock: 8,
       cost: 300,
       description: "Altos del Plata Malbec pertenece a la bodega Terrazas de los Andes. Su vino es de color rojo con destellos morados. Predomina la presencia de aromas a fruta negra como ciruela y mora en armonía con un toque tostado. Se distinguen notas especiadas a pimienta blanca.",
       capacity: 375,
       image: [
-        "https://res.cloudinary.com/bodegas-del-sur/image/upload/v1631316127/BodegasDelSur/01_1626713403.jpg"
+        "https://www.upgrowshop.com/image.php?width=650&height=650&image=/images/products/738/filtros-biodegradables-6mm-tuqueros-420_8985.jpeg"
       ],
-      categoryId: "vinos",
+      categoryId: "papelillos",
       brandId: 16,
       packingId: null,
       category: {
-        name: "Vinos",
+        name: "papelillos",
         id: 1
       },
       brand: {
@@ -190,19 +190,19 @@ const products = [
     },
     {
       id: 135,
-      name: "Altos del Plata Malbec 750 ml",
-      stock: 100,
-      cost: 490,
+      name: "Bong - Máscara de Gas - 2 en 1",
+      stock: 3,
+      cost: 4900,
       description: "Altos del Plata Malbec pertenece a la bodega Terrazas de los Andes. Su vino es de color rojo con destellos morados. Predomina la presencia de aromas a fruta negra como ciruela y mora en armonía con un toque tostado. Se distinguen notas especiadas a pimienta blanca.",
       capacity: 750,
       image: [
-        "https://res.cloudinary.com/bodegas-del-sur/image/upload/v1631316098/BodegasDelSur/01_1605808301.png"
+        "https://www.upgrowshop.com/image.php?width=650&height=650&image=/images/products/597/bong-mascara-de-gas_6392.jpeg"
       ],
-      categoryId: "vinos",
+      categoryId: "bongs",
       brandId: 16,
       packingId: null,
       category: {
-        name: "Vinos",
+        name: "bongs",
         id: 1
       },
       brand: {
@@ -213,19 +213,19 @@ const products = [
     },
     {
       id: 31,
-      name: "Amareto Disaronno 700 ml",
-      stock: 100,
-      cost: 3150,
+      name: "Bong - Acrílico 15cm - Zeus",
+      stock: 10,
+      cost: 2500,
       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dolor libero, tincidunt id lacinia auctor, mattis elementum tortor. In eu bibendum magna, ac dignissim justo.",
       capacity: 700,
       image: [
-        "https://res.cloudinary.com/bodegas-del-sur/image/upload/v1631316082/BodegasDelSur/01_1600449560.jpg"
+        "https://www.upgrowshop.com/image.php?width=650&height=650&image=/images/products/984/bong-zeus-acrilico-15cm-varios-colores_7240.jpeg"
       ],
-      categoryId: "whiskeys",
+      categoryId: "bongs",
       brandId: 17,
       packingId: null,
       category: {
-        name: "Licores",
+        name: "bongs",
         id: 5
       },
       brand: {

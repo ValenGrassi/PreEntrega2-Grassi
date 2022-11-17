@@ -6,9 +6,25 @@ h1{
   color:red;
 }
 
+.logo{
+  filter: brightness(1.1);
+  mix-blend-mode: multiply;
+}
+
+li{
+  font-size: 1.03rem;
+}
+
+.brand{
+  font-size: 1.03rem;
+  text-decoration: none;
+  color: black;
+}
+
 li:hover{
-            transform: scale(1.2);
-            transition: all 1s;
+  transform: scale(1.2);
+  transition: all 1s;
+  color: black;
 }
 
 .card{
@@ -27,4 +43,8 @@ li:hover{
 
 .boton{
   border-radius: 50%;
+}
+
+.nav{
+  background-color: rgb(68, 255, 68);
 }
