@@ -41,10 +41,53 @@ li:hover{
   width: 100%;
 }
 
-.boton{
+.botonmas{
   border-radius: 50%;
+  margin: 0px 10px 10px 0;
+}
+
+.botonmenos{
+  border-radius: 50%;
+  margin: 0px 10px 0 10px;
 }
 
 .nav{
   background-color: rgb(68, 255, 68);
+}
+
+.titulo-carrito{
+  text-align: center;
+  color: black;
+  text-decoration: underline;
+  margin-bottom: 10vh;
+}
+
+.titulo-carrito2{
+  text-align: center;
+  color: black;
+  text-decoration: underline;
+}
+
+.carrito-vacio{
+  margin: 20px 0px 0px 20px;
+  display: flex;
+}
+
+.foto-carrito{
+  width: 7.5vw;
+  height: auto;
+  margin-right: 20px;
+}
+
+.div-borrar{
+  display: flex;
+  justify-content: center;
+}
+.boton-borrar{
+  height: 30px;
+}
+
+.div-botones{
+  display: flex;
+  justify-content: center;
 }

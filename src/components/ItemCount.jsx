@@ -20,20 +20,25 @@ const ItemCount = ({ stock = 0, initial = 1,  onAdd }) => {
         }
     }
     return (
+        <>
         <div className="row">
-            <div className="col-2">
-            <button variant="text" onClick={increment} className="boton"><HiPlus /></button>
-            <div>{count}</div>
-            <button variant="text" onClick={decrement} className="boton"><HiMinus /></button>
-            </div>
-            <div className="col-10">
-            {
-                stock
-                ? <button variant="contained" color="primary" onClick={() => onAdd(count)}>Add to Cart</button>
-                : <button variant="contained" disabled>Add to Cart</button>
-            }
+            <div className="col-3">
+            <button variant="text" onClick={increment} className="botonmas"><HiPlus /></button>
+            <span>{count}</span>
+            <button variant="text" onClick={decrement} className="botonmenos"><HiMinus /></button>
             </div>
         </div>
+        <div className="row">
+            <div className="col-3">
+            {
+                stock && count 
+                ? <button variant="contained" onClick={() => onAdd(count)}>Add to Cart</button>
+                : <button variant="contained" disabled>Add to Cart</button>
+            }
+            
+            </div>
+        </div>
+        </>
     );
 }
 
